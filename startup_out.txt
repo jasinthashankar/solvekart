@@ -1,0 +1,185 @@
+
+> solvekart@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.4s (724 modules)
+ ✓ Compiled in 713ms (334 modules)
+ GET / 200 in 7193ms
+ GET / 200 in 84ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 652ms (404 modules)
+ ✓ Compiled (755 modules)
+ GET /favicon.ico 200 in 4423ms
+ GET /api/auth/session 200 in 5351ms
+ GET /api/auth/session 200 in 56ms
+ ○ Compiling /api/solve ...
+ ✓ Compiled /api/solve in 920ms (779 modules)
+ GET / 200 in 388ms
+ POST /api/solve 500 in 4154ms
+ GET /favicon.ico 200 in 62ms
+ GET /api/auth/session 200 in 215ms
+ GET /api/auth/session 200 in 21ms
+ GET /api/auth/session 200 in 20ms
+ GET /api/auth/session 200 in 22ms
+ GET /api/auth/session 200 in 24ms
+ POST /api/solve 500 in 2049ms
+ GET /api/auth/providers 200 in 33ms
+ GET /api/auth/signin?callbackUrl=http%3A%2F%2Flocalhost%3A3001%2F 200 in 27ms
+ GET / 200 in 134ms
+ GET /api/auth/session 200 in 52ms
+ GET /api/auth/session 200 in 23ms
+ GET /api/auth/session 200 in 27ms
+ GET /api/auth/session 200 in 24ms
+ GET /api/auth/session 200 in 19ms
+ ○ Compiling /bundle/[id] ...
+ ✓ Compiled /bundle/[id] in 3.9s (1123 modules)
+ GET /bundle/1 200 in 5576ms
+ ✓ Compiled /api/bundle/[id] in 405ms (794 modules)
+ GET /api/auth/session 200 in 1050ms
+ GET /api/auth/session 200 in 71ms
+ GET /api/bundle/1 404 in 3135ms
+ GET /api/bundle/1 404 in 248ms
+ GET / 200 in 267ms
+ GET /api/auth/session 200 in 44ms
+ GET /api/auth/session 200 in 19ms
+ POST /api/solve 500 in 5602ms
+ ✓ Compiled in 681ms (730 modules)
+ GET / 200 in 165ms
+ ✓ Compiled /api/auth/[...nextauth] in 320ms (417 modules)
+ ✓ Compiled (768 modules)
+ GET /favicon.ico 200 in 610ms
+ GET /api/auth/session 200 in 721ms
+ GET /api/auth/session 200 in 12ms
+ ✓ Compiled /api/solve in 236ms (792 modules)
+ POST /api/solve 500 in 2569ms
+ GET / 200 in 159ms
+ GET /api/auth/session 200 in 169ms
+ GET /api/auth/session 200 in 29ms
+ POST /api/solve 500 in 2512ms
+ POST /api/solve 500 in 1417ms
+ POST /api/solve 500 in 2052ms
+ GET /bundle/1 200 in 233ms
+ GET /api/auth/session 200 in 113ms
+ ○ Compiling /api/bundle/[id] ...
+ ✓ Compiled /api/bundle/[id] in 1492ms (765 modules)
+ GET /api/auth/session 200 in 2571ms
+ GET /api/bundle/1 404 in 3461ms
+ GET /api/bundle/1 404 in 345ms
+ GET / 200 in 252ms
+ GET /api/auth/session 200 in 63ms
+ GET /api/auth/session 200 in 38ms
+ ✓ Compiled in 1118ms (730 modules)
+ GET / 200 in 214ms
+ ✓ Compiled /api/auth/[...nextauth] in 174ms (738 modules)
+ GET /api/auth/session 200 in 433ms
+ GET /api/auth/session 200 in 14ms
+ GET /api/auth/session 200 in 13ms
+ GET /api/auth/session 200 in 11ms
+ GET /api/auth/session 200 in 12ms
+ GET /api/auth/session 200 in 11ms
+ GET /api/auth/session 200 in 11ms
+ GET /api/auth/session 200 in 11ms
+ GET /api/auth/session 200 in 11ms
+ GET /api/auth/session 200 in 13ms
+ ✓ Compiled /api/solve in 383ms (763 modules)
+ POST /api/solve 500 in 2073ms
+ ✓ Compiled in 1104ms (730 modules)
+ ✓ Compiled /api/solve in 329ms (452 modules)
+ POST /api/solve 500 in 1928ms
+ GET / 200 in 223ms
+ ✓ Compiled /api/auth/[...nextauth] in 374ms (738 modules)
+ GET /api/auth/session 200 in 607ms
+ GET /api/auth/session 200 in 18ms
+ GET / 200 in 262ms
+ GET /api/auth/session 200 in 34ms
+ GET /api/auth/session 200 in 20ms
+ GET / 200 in 85ms
+ GET /api/auth/session 200 in 33ms
+ GET /api/auth/session 200 in 13ms
+ GET /api/auth/session 200 in 18ms
+ ✓ Compiled /api/solve in 241ms (763 modules)
+ POST /api/solve 500 in 1113ms
+ POST /api/solve 500 in 2439ms
+ ✓ Compiled in 698ms (797 modules)
+ GET / 200 in 269ms
+ ✓ Compiled /api/auth/[...nextauth] in 277ms (763 modules)
+ GET /api/auth/session 200 in 522ms
+ GET /api/auth/session 200 in 32ms
+ GET /api/auth/session 200 in 27ms
+ POST /api/solve 200 in 2846ms
+ ○ Compiling /results ...
+ ✓ Compiled /results in 1833ms (1110 modules)
+ GET /bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9 200 in 232ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 723ms (465 modules)
+ ✓ Compiled (776 modules)
+ GET /api/auth/session 200 in 1164ms
+ GET /api/auth/session 200 in 18ms
+ GET /api/auth/session 200 in 21ms
+ GET /api/bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9 200 in 2264ms
+ GET /api/bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9 200 in 37ms
+ GET / 200 in 217ms
+ GET /api/auth/session 200 in 19ms
+ GET /api/auth/session 200 in 10ms
+ GET /api/auth/session 200 in 13ms
+ GET /api/auth/session 200 in 13ms
+ GET /api/auth/session 200 in 10ms
+ GET /api/auth/session 200 in 11ms
+ GET /api/auth/session 200 in 14ms
+ ✓ Compiled /api/solve in 339ms (776 modules)
+ POST /api/solve 200 in 3482ms
+ ✓ Compiled in 924ms (785 modules)
+ ✓ Compiled in 195ms (348 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 864ms (774 modules)
+ GET /bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9 200 in 216ms
+ GET / 200 in 270ms
+ GET / 200 in 276ms
+ ○ Compiling /api/bundle/[id] ...
+ ✓ Compiled /api/bundle/[id] in 730ms (753 modules)
+ ✓ Compiled (777 modules)
+ GET /api/bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9 200 in 849ms
+ GET /api/auth/session 200 in 963ms
+ GET /api/auth/session 200 in 1199ms
+ GET /api/bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9 200 in 28ms
+ GET /api/auth/session 200 in 36ms
+ GET /api/auth/session 200 in 35ms
+ GET /api/auth/session 200 in 16ms
+ GET /api/auth/session 200 in 16ms
+ GET /api/auth/session 200 in 17ms
+ GET /api/auth/session 200 in 16ms
+ GET /api/auth/session 200 in 11ms
+ ✓ Compiled in 873ms (771 modules)
+ ✓ Compiled in 262ms (348 modules)
+ ✓ Compiled in 228ms (348 modules)
+ ✓ Compiled in 266ms (348 modules)
+ ✓ Compiled /_not-found in 308ms (774 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1114ms (1000 modules)
+ GET /_next/static/css/app/layout.css?v=1773326919054 500 in 4804ms
+ GET /_next/static/css/app/layout.css?v=1773326919078 500 in 4815ms
+ GET /_next/static/css/app/layout.css?v=1773326919053 500 in 4803ms
+ GET /_next/static/css/app/layout.css?v=1773326924176 404 in 141ms
+ GET /_next/static/css/app/layout.css?v=1773326924240 404 in 66ms
+ GET /_next/static/css/app/layout.css?v=1773326924241 404 in 68ms
+ ✓ Compiled in 364ms (533 modules)
+ ✓ Compiled /_not-found in 292ms (998 modules)
+ GET /_next/static/css/app/layout.css?v=1773327013557 404 in 450ms
+ GET /_next/static/css/app/layout.css?v=1773327013558 404 in 453ms
+ ✓ Compiled /_error in 247ms (1000 modules)
+ GET /bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9 500 in 292ms
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 679ms (174 modules)
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 986ms (792 modules)
+ GET /api/auth/signin?callbackUrl=%2Fhome 200 in 1211ms
+ POST /api/auth/signin/email 500 in 282ms
+ GET /api/auth/signin?callbackUrl=%2Fhome 500 in 278ms
+[?25h

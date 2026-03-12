@@ -1,0 +1,1323 @@
+ ⚠ Port 3000 is in use, trying 3001 instead.
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\solvekart\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\solvekart\node_modules\typescript\lib\typescript.js', but to 'd:\solvekart\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\solvekart\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\solvekart\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\solvekart\node_modules\typescript\lib\typescript.js', but to 'd:\solvekart\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\solvekart\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+[next-auth][error][JWT_SESSION_ERROR] 
+https://next-auth.js.org/errors#jwt_session_error decryption operation failed {
+  message: 'decryption operation failed',
+  stack: 'JWEDecryptionFailed: decryption operation failed\n' +
+    '    at gcmDecrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/runtime/decrypt.js:67:15)\n' +
+    '    at decrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/runtime/decrypt.js:92:20)\n' +
+    '    at flattenedDecrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/jwe/flattened/decrypt.js:143:52)\n' +
+    '    at async compactDecrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/jwe/compact/decrypt.js:18:23)\n' +
+    '    at async jwtDecrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/jwt/decrypt.js:8:23)\n' +
+    '    at async Object.decode (webpack-internal:///(rsc)/./node_modules/next-auth/jwt/index.js:56:7)\n' +
+    '    at async Object.session (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/session.js:48:28)\n' +
+    '    at async AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:136:27)\n' +
+    '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+    '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+    '    at async d:\\solvekart\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+    '    at async eT.execute (d:\\solvekart\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+    '    at async eT.handle (d:\\solvekart\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+    '    at async doRender (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+    '    at async cacheEntry.responseCache.get.routeKind (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+    '    at async DevServer.renderToResponseWithComponentsImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+    '    at async DevServer.renderPageComponent (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+    '    at async DevServer.renderToResponseImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+    '    at async DevServer.pipeImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+    '    at async NextNodeServer.handleCatchallRenderRequest (d:\\solvekart\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+    '    at async DevServer.handleRequestImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+    '    at async d:\\solvekart\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+    '    at async Span.traceAsyncFn (d:\\solvekart\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+    '    at async DevServer.handleRequest (d:\\solvekart\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+    '    at async invokeRender (d:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+    '    at async handleRequest (d:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+    '    at async requestHandlerImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+    '    at async Server.requestListener (d:\\solvekart\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+  name: 'JWEDecryptionFailed'
+}
+[next-auth][error][JWT_SESSION_ERROR] 
+https://next-auth.js.org/errors#jwt_session_error decryption operation failed {
+  message: 'decryption operation failed',
+  stack: 'JWEDecryptionFailed: decryption operation failed\n' +
+    '    at gcmDecrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/runtime/decrypt.js:67:15)\n' +
+    '    at decrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/runtime/decrypt.js:92:20)\n' +
+    '    at flattenedDecrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/jwe/flattened/decrypt.js:143:52)\n' +
+    '    at async compactDecrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/jwe/compact/decrypt.js:18:23)\n' +
+    '    at async jwtDecrypt (webpack-internal:///(rsc)/./node_modules/jose/dist/node/cjs/jwt/decrypt.js:8:23)\n' +
+    '    at async Object.decode (webpack-internal:///(rsc)/./node_modules/next-auth/jwt/index.js:56:7)\n' +
+    '    at async Object.session (webpack-internal:///(rsc)/./node_modules/next-auth/core/routes/session.js:48:28)\n' +
+    '    at async AuthHandler (webpack-internal:///(rsc)/./node_modules/next-auth/core/index.js:136:27)\n' +
+    '    at async NextAuthRouteHandler (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:57:28)\n' +
+    '    at async NextAuth._args$ (webpack-internal:///(rsc)/./node_modules/next-auth/next/index.js:89:16)\n' +
+    '    at async d:\\solvekart\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:57228\n' +
+    '    at async eT.execute (d:\\solvekart\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:46851)\n' +
+    '    at async eT.handle (d:\\solvekart\\node_modules\\next\\dist\\compiled\\next-server\\app-route.runtime.dev.js:6:58760)\n' +
+    '    at async doRender (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1366:42)\n' +
+    '    at async cacheEntry.responseCache.get.routeKind (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1576:40)\n' +
+    '    at async DevServer.renderToResponseWithComponentsImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1496:28)\n' +
+    '    at async DevServer.renderPageComponent (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1924:24)\n' +
+    '    at async DevServer.renderToResponseImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:1962:32)\n' +
+    '    at async DevServer.pipeImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:922:25)\n' +
+    '    at async NextNodeServer.handleCatchallRenderRequest (d:\\solvekart\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n' +
+    '    at async DevServer.handleRequestImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\base-server.js:818:17)\n' +
+    '    at async d:\\solvekart\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n' +
+    '    at async Span.traceAsyncFn (d:\\solvekart\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n' +
+    '    at async DevServer.handleRequest (d:\\solvekart\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n' +
+    '    at async invokeRender (d:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js:179:21)\n' +
+    '    at async handleRequest (d:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js:359:24)\n' +
+    '    at async requestHandlerImpl (d:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js:383:13)\n' +
+    '    at async Server.requestListener (d:\\solvekart\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)',
+  name: 'JWEDecryptionFailed'
+}
+Supabase keywords error: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.keywords' in the schema cache"
+}
+Groq call attempt 1 failed: Error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+Groq call attempt 2 failed: Error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+AI solve error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Supabase keywords error: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.keywords' in the schema cache"
+}
+Groq call attempt 1 failed: Error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+Groq call attempt 2 failed: Error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+AI solve error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Supabase keywords error: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.keywords' in the schema cache"
+}
+Groq call attempt 1 failed: Error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+Groq call attempt 2 failed: Error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+AI solve error: Groq API error: 400 {"error":{"message":"The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Supabase keywords error: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.keywords' in the schema cache"
+}
+Groq call attempt 1 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20962, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+Groq call attempt 2 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20962, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+AI solve error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20962, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+Supabase keywords error: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.keywords' in the schema cache"
+}
+Groq call attempt 1 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20962, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+Groq call attempt 2 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20962, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+AI solve error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20962, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+Supabase keywords error: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.keywords' in the schema cache"
+}
+Groq call attempt 1 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20955, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+Groq call attempt 2 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20955, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+AI solve error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20955, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+Supabase keywords error: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.keywords' in the schema cache"
+}
+Groq call attempt 1 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20954, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+Groq call attempt 2 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20954, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:169:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+AI solve error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 20954, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+Supabase keywords error: {
+  code: 'PGRST205',
+  details: null,
+  hint: null,
+  message: "Could not find the table 'public.keywords' in the schema cache"
+}
+Groq call attempt 1 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.1-8b-instant` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 13383, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:105:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+Groq call attempt 2 failed: Error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.1-8b-instant` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 13383, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+    at callGroq (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:34:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/solve/route.ts:105:33)
+    at async d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57228
+    at async eT.execute (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:46851)
+    at async eT.handle (d:\solvekart\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:58760)
+    at async doRender (d:\solvekart\node_modules\next\dist\server\base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (d:\solvekart\node_modules\next\dist\server\base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1496:28)
+    at async DevServer.renderPageComponent (d:\solvekart\node_modules\next\dist\server\base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (d:\solvekart\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:818:17)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13)
+AI solve error: Groq API error: 413 {"error":{"message":"Request too large for model `llama-3.1-8b-instant` in organization `org_01kkh4qkkpe6fv3skqw23tqx1z` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 13383, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+Groq attempt 1 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Groq attempt 2 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Groq attempt 3 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+AI solve error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Groq attempt 1 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Groq attempt 2 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Groq attempt 3 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+AI solve error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Groq attempt 1 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Groq attempt 2 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+Groq attempt 3 error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+AI solve error: Groq API error: 400 {"error":{"message":"The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\_not-found\page.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\hot-middleware.js
+- d:\solvekart\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- d:\solvekart\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- d:\solvekart\node_modules\next\dist\server\lib\router-server.js
+- d:\solvekart\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (d:\solvekart\.next\server\webpack-runtime.js:198:28)
+    at d:\solvekart\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (d:\solvekart\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (d:\solvekart\.next\server\webpack-runtime.js:162:22)
+    at d:\solvekart\.next\server\app\_not-found\page.js:1:4366
+    at Object.<anonymous> (d:\solvekart\.next\server\app\_not-found\page.js:1:4412)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (d:\solvekart\node_modules\next\dist\server\require.js:109:84)
+    at d:\solvekart\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (d:\solvekart\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (d:\solvekart\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (d:\solvekart\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\_not-found\\page.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\_not-found\page.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\hot-middleware.js
+- d:\solvekart\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- d:\solvekart\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- d:\solvekart\node_modules\next\dist\server\lib\router-server.js
+- d:\solvekart\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (d:\solvekart\.next\server\webpack-runtime.js:198:28)
+    at d:\solvekart\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (d:\solvekart\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (d:\solvekart\.next\server\webpack-runtime.js:162:22)
+    at d:\solvekart\.next\server\app\_not-found\page.js:1:4366
+    at Object.<anonymous> (d:\solvekart\.next\server\app\_not-found\page.js:1:4412)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (d:\solvekart\node_modules\next\dist\server\require.js:109:84)
+    at d:\solvekart\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (d:\solvekart\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (d:\solvekart\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (d:\solvekart\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\_not-found\\page.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\_not-found\page.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\hot-middleware.js
+- d:\solvekart\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- d:\solvekart\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- d:\solvekart\node_modules\next\dist\server\lib\router-server.js
+- d:\solvekart\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (d:\solvekart\.next\server\webpack-runtime.js:198:28)
+    at d:\solvekart\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (d:\solvekart\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (d:\solvekart\.next\server\webpack-runtime.js:162:22)
+    at d:\solvekart\.next\server\app\_not-found\page.js:1:4366
+    at Object.<anonymous> (d:\solvekart\.next\server\app\_not-found\page.js:1:4412)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (d:\solvekart\node_modules\next\dist\server\require.js:109:84)
+    at d:\solvekart\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (d:\solvekart\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (d:\solvekart\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (d:\solvekart\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (d:\solvekart\node_modules\next\dist\server\base-server.js:922:25)
+    at async d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (d:\solvekart\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (d:\solvekart\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (d:\solvekart\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (d:\solvekart\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\_not-found\\page.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Failed to generate static paths for /bundle/[id]:
+Error: Cannot find module './vendor-chunks/next-auth.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\bundle\[id]\page.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\static-paths-worker.js
+- d:\solvekart\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\bundle\\[id]\\page.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+ ⨯ Failed to generate static paths for /bundle/[id]:
+Error: Cannot find module './vendor-chunks/next-auth.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\bundle\[id]\page.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\static-paths-worker.js
+- d:\solvekart\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\bundle\\[id]\\page.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\solvekart\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\solvekart\node_modules\typescript\lib\typescript.js', but to 'd:\solvekart\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\solvekart\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\solvekart\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\solvekart\node_modules\typescript\lib\typescript.js', but to 'd:\solvekart\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\solvekart\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\solvekart\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\solvekart\node_modules\typescript\lib\typescript.js', but to 'd:\solvekart\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\solvekart\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'd:\solvekart\.next\server\vendor-chunks\class-variance-authority.js'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'd:\solvekart\.next\server\vendor-chunks\class-variance-authority.js'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'd:\solvekart\.next\server\vendor-chunks\class-variance-authority.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/class-variance-authority' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\class-variance-authority.js', but to 'Error: Can't resolve './vendor-chunks/class-variance-authority' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/class-variance-authority (expected d:\solvekart\.next\server\vendor-chunks\class-variance-authority.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/class-variance-authority' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\class-variance-authority.js', but to 'Error: Can't resolve './vendor-chunks/class-variance-authority' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/class-variance-authority (expected d:\solvekart\.next\server\vendor-chunks\class-variance-authority.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\bundle\[id]\page.js
+<w>  at file d:\solvekart\.next\server\app\bundle\[id]\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/class-variance-authority' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\class-variance-authority.js', but to 'Error: Can't resolve './vendor-chunks/class-variance-authority' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/class-variance-authority (expected d:\solvekart\.next\server\vendor-chunks\class-variance-authority.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/clsx' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\clsx.js', but to 'Error: Can't resolve './vendor-chunks/clsx' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/clsx (expected d:\solvekart\.next\server\vendor-chunks\clsx.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/tailwind-merge' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\tailwind-merge.js', but to 'Error: Can't resolve './vendor-chunks/tailwind-merge' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/tailwind-merge (expected d:\solvekart\.next\server\vendor-chunks\tailwind-merge.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'd:\solvekart\.next\server\vendor-chunks\class-variance-authority.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/class-variance-authority' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\class-variance-authority.js', but to 'Error: Can't resolve './vendor-chunks/class-variance-authority' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/class-variance-authority (expected d:\solvekart\.next\server\vendor-chunks\class-variance-authority.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/clsx' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\clsx.js', but to 'Error: Can't resolve './vendor-chunks/clsx' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/clsx (expected d:\solvekart\.next\server\vendor-chunks\clsx.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/tailwind-merge' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\tailwind-merge.js', but to 'Error: Can't resolve './vendor-chunks/tailwind-merge' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/tailwind-merge (expected d:\solvekart\.next\server\vendor-chunks\tailwind-merge.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@radix-ui' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\@radix-ui.js', but to 'Error: Can't resolve './vendor-chunks/@radix-ui' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@radix-ui (expected d:\solvekart\.next\server\vendor-chunks\@radix-ui.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file d:\solvekart\.next\server\app\_not-found\page.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ⨯ Error: Cannot find module './vendor-chunks/next-auth.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\bundle\[id]\page.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\static-paths-worker.js
+- d:\solvekart\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\bundle\\[id]\\page.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next-auth.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\bundle\[id]\page.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\static-paths-worker.js
+- d:\solvekart\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\bundle\\[id]\\page.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/bundle/0f96670b-33eb-492b-9995-d63ae5f7d1c9'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'd:\solvekart\.next\server\vendor-chunks\lucide-react.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/lucide-react' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\lucide-react.js', but to 'Error: Can't resolve './vendor-chunks/lucide-react' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/lucide-react (expected d:\solvekart\.next\server\vendor-chunks\lucide-react.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\pages\_error.js
+<w>  at file d:\solvekart\.next\server\pages\_error.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/goober' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\goober.js', but to 'Error: Can't resolve './vendor-chunks/goober' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/goober (expected d:\solvekart\.next\server\vendor-chunks\goober.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\pages\_error.js
+<w>  at file d:\solvekart\.next\server\pages\_error.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/react-hot-toast' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\react-hot-toast.js', but to 'Error: Can't resolve './vendor-chunks/react-hot-toast' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/react-hot-toast (expected d:\solvekart\.next\server\vendor-chunks\react-hot-toast.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\pages\_error.js
+<w>  at file d:\solvekart\.next\server\pages\_error.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@babel' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\@babel.js', but to 'Error: Can't resolve './vendor-chunks/@babel' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@babel (expected d:\solvekart\.next\server\vendor-chunks\@babel.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\pages\_error.js
+<w>  at file d:\solvekart\.next\server\pages\_error.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ⨯ Failed to generate static paths for /api/auth/[...nextauth]:
+Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\api\auth\[...nextauth]\route.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\static-paths-worker.js
+- d:\solvekart\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\solvekart\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\solvekart\node_modules\typescript\lib\typescript.js', but to 'd:\solvekart\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\solvekart\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'd:\solvekart\.next\server\vendor-chunks\iceberg-js.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/iceberg-js' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\iceberg-js.js', but to 'Error: Can't resolve './vendor-chunks/iceberg-js' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/iceberg-js (expected d:\solvekart\.next\server\vendor-chunks\iceberg-js.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\api\solve\route.js
+<w>  at file d:\solvekart\.next\server\app\api\solve\route.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/tslib' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\tslib.js', but to 'Error: Can't resolve './vendor-chunks/tslib' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/tslib (expected d:\solvekart\.next\server\vendor-chunks\tslib.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\api\solve\route.js
+<w>  at file d:\solvekart\.next\server\app\api\solve\route.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@supabase' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\@supabase.js', but to 'Error: Can't resolve './vendor-chunks/@supabase' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@supabase (expected d:\solvekart\.next\server\vendor-chunks\@supabase.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\app\api\solve\route.js
+<w>  at file d:\solvekart\.next\server\app\api\solve\route.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ⨯ Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\api\auth\[...nextauth]\route.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\static-paths-worker.js
+- d:\solvekart\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/api/auth/signin/email'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/@supabase.js'
+Require stack:
+- d:\solvekart\.next\server\webpack-runtime.js
+- d:\solvekart\.next\server\app\api\auth\[...nextauth]\route.js
+- d:\solvekart\node_modules\next\dist\server\require.js
+- d:\solvekart\node_modules\next\dist\server\load-components.js
+- d:\solvekart\node_modules\next\dist\build\utils.js
+- d:\solvekart\node_modules\next\dist\server\dev\static-paths-worker.js
+- d:\solvekart\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at d:\solvekart\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (d:\solvekart\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'd:\\solvekart\\.next\\server\\webpack-runtime.js',
+    'd:\\solvekart\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\require.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\load-components.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\build\\utils.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'd:\\solvekart\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/api/auth/signin'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'd:\solvekart\.next\server\vendor-chunks\iceberg-js.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/iceberg-js' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\iceberg-js.js', but to 'Error: Can't resolve './vendor-chunks/iceberg-js' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/iceberg-js (expected d:\solvekart\.next\server\vendor-chunks\iceberg-js.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\pages\_error.js
+<w>  at file d:\solvekart\.next\server\pages\_error.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/tslib' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\tslib.js', but to 'Error: Can't resolve './vendor-chunks/tslib' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/tslib (expected d:\solvekart\.next\server\vendor-chunks\tslib.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\pages\_error.js
+<w>  at file d:\solvekart\.next\server\pages\_error.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@supabase' in d:\solvekart\.next\server for build dependencies doesn't lead to expected result 'd:\solvekart\.next\server\vendor-chunks\@supabase.js', but to 'Error: Can't resolve './vendor-chunks/@supabase' in 'd:\solvekart\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@supabase (expected d:\solvekart\.next\server\vendor-chunks\@supabase.js)
+<w>  at file dependencies d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file d:\solvekart\.next\server\webpack-runtime.js
+<w>  at file dependencies d:\solvekart\.next\server\pages\_error.js
+<w>  at file d:\solvekart\.next\server\pages\_error.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\require.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file d:\solvekart\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\utils.js
+<w>  at file dependencies d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs d:\solvekart\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
