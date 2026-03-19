@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useSession, signIn, signOut } from "next-auth/react";
-import { UserCircle, LogOut } from "lucide-react";
+import { UserCircle, LogOut, ShieldCheck } from "lucide-react";
+
+const ADMIN_EMAIL = process.env.NEXT_PUBLIC_ADMIN_EMAIL || "jasinthashankar@gmail.com";
 
 export function Header() {
   const { data: session, status } = useSession();
@@ -22,6 +24,18 @@ export function Header() {
             <div className="h-9 w-24 bg-slate-200 animate-pulse rounded-full" />
           ) : session ? (
             <div className="flex items-center gap-4">
+              {session.user?.email === ADMIN_EMAIL && (
+                <Link href="/admin">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="flex items-center gap-1 border-orange text-orange hover:bg-orange/10 rounded-full font-medium"
+                  >
+                    <ShieldCheck className="w-4 h-4" />
+                    <span className="hidden sm:inline">Admin</span>
+                  </Button>
+                </Link>
+              )}
               <Link href="/profile" className="flex items-center gap-2 hover:bg-slate-100 p-2 rounded-full transition-colors">
                 {session.user?.image ? (
                   // eslint-disable-next-line @next/next/no-img-element

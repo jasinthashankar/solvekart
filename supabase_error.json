@@ -1,6 +1,6 @@
 {
-  "code": "PGRST204",
-  "details": null,
-  "hint": null,
-  "message": "Could not find the 'tasks' column of 'bundles' in the schema cache"
+  "message": "TypeError: fetch failed",
+  "details": "TypeError: fetch failed\n\nCaused by: ConnectTimeoutError: Connect Timeout Error (attempted address: gdwmbasiszudrvdjsdnk.supabase.co:443, timeout: 10000ms) (UND_ERR_CONNECT_TIMEOUT)\nConnectTimeoutError: Connect Timeout Error (attempted address: gdwmbasiszudrvdjsdnk.supabase.co:443, timeout: 10000ms)\n    at onConnectTimeout (node:internal/deps/undici/undici:2602:28)\n    at Immediate._onImmediate (node:internal/deps/undici/undici:2568:35)\n    at process.processImmediate (node:internal/timers:485:21)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "hint": "",
+  "code": ""
 }
